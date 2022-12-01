@@ -1,0 +1,44 @@
+.one, .two, .three, .one_header, .two_main, .two_footer, .three_new{
+	height: 50px;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.two{
+	background-color: green;
+}
+.three, .three_new{
+	background-color: blue;
+}
+.one_header, .two_main, .two_footer{
+	background-color: violet;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media (max-width: 400px){
+	.grid {
+		display: grid;
+		grid-template-columns: 40% 40%
+	}
+}
+
+@media (min-width: 401px) and (max-width: 1000px) {
+	.grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 30px;
+		background-color: red;
+	}
+}
+
+@media (min-width: 1001px){
+	.grid{
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		background-color: blue;
+}
+

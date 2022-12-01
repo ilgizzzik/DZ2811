@@ -1,0 +1,53 @@
+body{
+    font: 1.4rem/1.4 Georgia, serif;
+}
+.header
+{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 30px;
+    background: lightgray;
+}
+
+.photo_main
+{
+    float: left;
+    width: 50%;
+    align-content: center;
+    transform: rotate(90deg);
+}
+.fio
+{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.me
+{
+    width: 24%;
+}
+.lesson
+{
+    width: 24%;
+    padding-left: 30px;
+}
+.me, .lesson
+{
+
+    float: left;
+    text-align:justify;
+    font-size: 18px;
+}
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+blockquote {
+    quotes: "“" "”" "‘" "’";
+}
+

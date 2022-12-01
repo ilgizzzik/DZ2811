@@ -1,0 +1,97 @@
+body{
+    font: 1.1rem/1.4 Georgia, serif;
+}
+
+.header {
+    background: lightgray;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.header__link {
+    display: inline-block;
+    padding: 15px;
+}
+
+.main__info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    width: 45%;
+}
+
+.main__img {
+    object-fit: contain;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: center;
+    min-height: 100%;
+}
+
+.main__name {
+    width: 100%;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5%;
+    justify-content: space-around;
+}
+.main__rightblock, .main__leftblock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.main__leftblock {
+    width: 35%;
+}
+.main__rightblock {
+    width: 60%;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer {
+    background-color: lightgray;
+}
+
+footer li{
+    text-align: center;
+}
+
+/* Домашка 5 */
+
+
+.main__list1 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
+.main-new{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5%;
+    justify-content: center;
+}
+main li{
+    text-align: center;
+}

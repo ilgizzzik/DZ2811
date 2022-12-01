@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тайтл</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+
+
+    <table>
+        <caption>Зверьки</caption>
+        <tbody>
+        <tr>
+            <td rowspan="2">Зверек 1 <br> Зверек 2</td>
+            <td><img src="imgs/1.png" alt=”Привет1” title=”Привет2” width="150px"></td>
+        </tr>
+        <tr>
+            <td><img src="imgs/2.png" alt=”Привет1” title=”Привет2” width="150px""></td>
+        </tr>
+        <tr>
+            <td colspan="2"> <p class="test">Зверек 3  </p> <img src="imgs/3.png" class="picTable" alt=”Привет1” title=”Привет2” width="150px"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <form action="index.html" method="post">
+  <p>      <label for="name">ФИО </label>
+        <input type="text" id="name" name="fio" required placeholder="ФИО">
+  </p><p>
+        <label for="tel">Телефон</label>
+        <input type="text" id="tel" name="tel"  pattern="2-[0-9]{3}-[0-9]{3}> " placeholder="4234234234"> </p>
+        <p>
+        <label for="mail">Почта </label>
+        <input type="email"  id="mail" name="email">
+        </p><p>
+        <label for="password">Пароль </label>
+        <input type="password" id="password" name="password">
+    </p><p>
+        <label for="comment">Комментарий </label>
+        <textarea id="comment" name="Comment"></textarea>
+        </p><p>
+        <label>Возраст: </label> <br>
+        <input type="radio" id="18" name="user_age" value="18+"><label>18+</label><br>
+        <input type="radio" id="16" name="user_age" value="18-"><label>Я малолетка</label>
+    </p><p>
+        <label>Опросник:</label> <br>
+        <input type="checkbox" id="student" name="user_work" value="student"><label>Студент</label><br>
+        <input type="checkbox" id="business" name="user_work" value="business"><label>Бизнес</label><br>
+    </p><p>
+        <label>Живу в:</label>
+        <select id="city" name="city">
+            <option value="Russia">Россия</option>
+            <option value="Other">Не РФ</option>
+        </select> </p><p>
+        <fieldset>
+            <legend>Кнопки</legend>
+        <button type="submit">ОК я готов к полету</button> <br>
+        <input type="image" src="imgs/duck_001.png" height="33px">
+        </fieldset></p>
+    </form>
+
+    <table>
+        <tbody>
+        <tr class="bloc_1">
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 1</a></td>
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 2</a></td>
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 3</a></td>
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 4</a></td>
+        </tr>
+        <tr class="bloc_2">
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 5</a></td>
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 6</a></td>
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 7</a></td>
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 8</a></td>
+        </tr>
+        <tr class="bloc_3">
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 9</a></td>
+            <td><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 10</a></td>
+            <td class="bloc_4"><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 11</a></td>
+            <td class="bloc_5"><a href="https://ru.wikipedia.org/" target="_blank">Ячейка 12</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+
+<div class="pic20">
+
+</div>
+
+</body>
+</html>

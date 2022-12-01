@@ -1,0 +1,90 @@
+body{
+
+}
+
+.test_001
+{
+    background-color: yellow;
+    font-size: 10px;
+    float: left;
+}
+
+.test_002
+{
+    background-color: green;
+    font-size: 20px;
+}
+.test_003
+
+{
+    background-color: red;
+    font-size: 30px;
+}
+.test_003, .test_002, .test_001
+{
+    float: left;
+    width: 33.3%;
+    height: 33px;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.pic2 {
+    background-image: url("../imgs/duck_001.png");
+    height: 5000px;
+    width: 5000px;
+    background-repeat: repeat;
+    transform: rotate(180deg);
+    filter: blur(3px)
+}
+table{
+    border: 1px solid black;
+
+}
+th {
+    border: 1px solid grey;
+    text-align: center;
+
+}
+td {
+    border: 1px solid grey;
+    text-align: center;
+    height: 200px;
+    vertical-align: center;
+}
+tr
+{
+    height: 200px;
+}
+.test
+{
+display: inline-block;
+}
+.picTable
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu{
+
+}
+.bloc_1{
+    background-color: yellow;
+}
+.bloc_2{
+    background-color: green;
+}
+.bloc_3{
+    background-color: red;
+}
+.bloc_4{
+    background-color: violet;
+}
+.bloc_5{
+    background-color: hotpink;
+}
